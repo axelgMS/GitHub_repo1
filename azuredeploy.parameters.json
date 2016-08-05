@@ -1,0 +1,21 @@
+{ 
+   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#", 
+   "contentVersion": "1.0.0.0", 
+   "parameters": { 
+     "vmSSPrefix": { 
+       "value": "vmss2" 
+     }, 
+     "numberOfVMSS": { 
+      "value": 1 
+     }, 
+     "instanceCountPerVMSS": { 
+       "value": 2 
+     }, 
+     "adminUsername": { 
+       "value": "RD_axelg" 
+     }, 
+     "adminPassword": { 
+       "value": "ABCdef123" 
+     } 
+   } 
+ } 
