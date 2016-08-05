@@ -25,9 +25,9 @@
      } 
    }, 
    "variables": { 
-     "imagePublisher": "Canonical", 
-     "imageOffer": "UbuntuServer", 
-     "imageVersion": "15.10", 
+     "imagePublisher": "bitnami", 
+     "imageOffer": "exoplatform", 
+     "imageVersion": "4", 
      "subnetName": "subnet", 
      "storageAccountType": "Standard_LRS", 
      "location": "[resourceGroup().location]", 
