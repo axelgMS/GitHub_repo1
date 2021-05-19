@@ -1,7 +1,8 @@
-net stop rdagent
-net stop WindowsAzureGuestAgent
 net stop WindowsAzureTelemetryService
-
-sc delete rdagent
-sc delete WindowsAzureGuestAgent
 sc delete WindowsAzureTelemetryService
+
+net stop WindowsAzureGuestAgent
+sc delete WindowsAzureGuestAgent
+
+net stop rdagent
+sc delete rdagent
